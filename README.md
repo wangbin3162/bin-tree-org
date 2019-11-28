@@ -1,5 +1,7 @@
 # bin-lib
 
+[说明文档](https://wangbin3162.github.io/docs/bin-tree-org/)
+
 ## 介绍
 
 为实现组织结构图，参考实现了一个简易版组织结构图，组件依赖于[vue-org-tree](https://github.com/hukaibaihu/vue-org-tree)，
