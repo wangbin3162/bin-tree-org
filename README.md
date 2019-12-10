@@ -4,14 +4,14 @@
 
 ## 介绍
 
-为实现组织结构图，参考实现了一个简易版组织结构图，组件依赖于[vue-org-tree](https://github.com/hukaibaihu/vue-org-tree)，
+为实现组织结构图，参考实现了一个简易版组织结构图，组件依赖于[vue-org-tree](https://github.com/hukaibaihu/bin-tree-org)，
 在此基础上将部分源代码进行优化修改，并将labelWidth更改成labelStyle以便暴露给外部全量的修改label样式。并附上使用测试案例和开发文档。
 
 ## 安装
 
 ### CDN 安装
 
-通过[unpkg.com/bin-org-tree](https://unpkg.com/bin-org-tree/) 可以看到最新版本的资源，也可以切换版本选择需要的资源，在页面上引入 js 和 css
+通过[unpkg.com/bin-org-tree](https://unpkg.com/bin-tree-org/) 可以看到最新版本的资源，也可以切换版本选择需要的资源，在页面上引入 js 和 css
 文件即可开始使用：
 
 ```
@@ -30,9 +30,9 @@
 es6配合使用。并且支持按需引入
 
 ```shell
-npm i bin-org-tree -S
+npm i bin-tree-org -S
 # or 
-yarn add bin-org-tree
+yarn add bin-tree-org
 ```
 
 如果您了解node.js、npm安装，并希望配合webpack使用，请阅读下一节：[快速上手](/#/start)。
@@ -43,14 +43,14 @@ yarn add bin-org-tree
 
 ```javascript
 import Vue from 'vue'
-import BinOrgTree from 'bin-org-tree'
+import BinOrgTree from 'bin-tree-org'
 
 Vue.use(BinOrgTree)
 ```
 
 ### 最新版本
 
-[![NPM version](https://img.shields.io/npm/v/bin-org-tree.svg)](https://www.npmjs.com/package/bin-org-tree)
+[![NPM version](https://img.shields.io/npm/v/bin-tree-org.svg)](https://www.npmjs.com/package/bin-tree-org)
 
 ### 相关链接
 
