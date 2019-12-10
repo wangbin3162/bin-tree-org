@@ -1,6 +1,6 @@
 {
   "name": "bin-tree-org",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue 组件库模式脚手架",
   "main": "lib/bin-tree-org.common.js",
   "keywords": [

@@ -1,6 +1,6 @@
 # bin-lib
 
-[说明文档](https://wangbin3162.github.io/docs/bin-tree-org/)
+[说明文档](https://wangbin3162.gitee.io/bin-tree-org/)
 
 ## 介绍
 
@@ -11,15 +11,15 @@
 
 ### CDN 安装
 
-通过[unpkg.com/bin-org-tree](https://unpkg.com/bin-tree-org/) 可以看到最新版本的资源，也可以切换版本选择需要的资源，在页面上引入 js 和 css
+通过[unpkg.com/bin-tree-org](https://unpkg.com/bin-tree-org/) 可以看到最新版本的资源，也可以切换版本选择需要的资源，在页面上引入 js 和 css
 文件即可开始使用：
 
 ```
 <!-- import Vue.js -->
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<!-- import bin-org-tree -->
-<link href="https://unpkg.com/bin-org-tree@1.0.0/lib/style/style.css">
-<script src="https://unpkg.com/bin-org-tree@1.0.0/lib/index.min.js"></script>
+<!-- import bin-tree-org -->
+<link href="https://unpkg.com/bin-tree-org@1.0.0/lib/style/style.css">
+<script src="https://unpkg.com/bin-tree-org@1.0.0/lib/index.min.js"></script>
 ```
     
 `@1.0.0` 表示版本号，我们建议锁定版本号来保证代码的稳定性
@@ -54,5 +54,5 @@ Vue.use(BinOrgTree)
 
 ### 相关链接
 
-[bin-ui](https://wangbin3162.github.io/docs/bin-ui/)
+[bin-ui](https://wangbin3162.gitee.io/bin-ui/)
 

@@ -2,6 +2,8 @@
 
 ### 基础用法
 
+可以设置类似的data数据格式来生成树形组织图，并可以通过style精确配置每个节点的样式
+
 ::: demo
 ```html
 <template>
@@ -38,6 +40,7 @@
               {
                 id: 2,
                 label: "产品研发部",
+                style: { color:'#fff', backgroundColor:'#108ffe' },
                 children: [
                   {
                     id: 5,

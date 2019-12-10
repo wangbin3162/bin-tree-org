@@ -51,7 +51,6 @@ export const renderLabel = (h, data, context) => {
   const label = data[props.props.label]
   const renderContent = props.renderContent
   const clickHandler = listeners['on-node-click']
-
   const childNodes = []
   if (typeof renderContent === 'function') {
     let vnode = renderContent(h, data)
@@ -85,7 +84,7 @@ export const renderLabel = (h, data, context) => {
     'class': 'org-tree-node-label'
   }, [h('div', {
     'class': cls,
-    style: labelStyle,
+    style: data['style'] ? data['style'] : labelStyle,
     on: {
       click: e => clickHandler && clickHandler(e, data)
     }

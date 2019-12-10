@@ -14,6 +14,6 @@ export default {
     Vue.prototype.$open = util.open
     Vue.prototype.$print = log.print
     // 打印UI官网
-    log.pretty('[' + config.name + '] ' + config.version, 'https://wangbin3162.github.io/docs/bin-org-tree/', 'success')
+    log.pretty('[' + config.name + '] ' + config.version, 'https://wangbin3162.gitee.io/bin-tree-org/', 'success')
   }
 }

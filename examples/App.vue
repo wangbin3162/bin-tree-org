@@ -4,7 +4,7 @@
     <div class="main-cnt" flex>
       <side-nav class="nav" flex-box="0"></side-nav>
       <div class="page-container" flex-box="1">
-        <b-scrollbar style="height:100%;" ref="componentScrollBar">
+        <b-scrollbar style="height:100%;" ref="componentScrollBar" normal>
           <router-view></router-view>
           <main-footer></main-footer>
           <b-back-top></b-back-top>
@@ -30,7 +30,7 @@
         this.$nextTick(() => {
           this.componentScrollBar.update()
           if (this.$route.meta.desc) {
-            this.$util.title(this.$route.meta.desc + ' - [bin-org-tree]')
+            this.$util.title(this.$route.meta.desc + ' - [bin-tree-org]')
           }
         })
       }
