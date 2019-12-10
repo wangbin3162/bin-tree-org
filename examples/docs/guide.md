@@ -46,7 +46,7 @@ Vue.use(BinOrgTree)
 
 ### 最新版本
 
-[![NPM version](https://img.shields.io/npm/v/bin-org-tree.svg)](https://www.npmjs.com/package/bin-org-tree)
+[![NPM version](https://img.shields.io/npm/v/bin-tree-org.svg)](https://www.npmjs.com/package/bin-tree-org)
 
 ### 相关链接
 
