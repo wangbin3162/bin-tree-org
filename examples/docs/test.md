@@ -35,7 +35,7 @@
         return {
           data: {
             id: 0,
-            label: "徐州新云网络科技有限公司",
+            label: "xxx科技有限公司",
             children: [
               {
                 id: 2,
@@ -85,14 +85,17 @@
             ]
           },
           horizontal: false,
-          collapsable: false,
-          expandAll: false,
+          collapsable: true,
+          expandAll: true,
           style: {
             background:'#fff',
             color:'#5e6d82'
           }     
         } 
       },
+      created(){
+          this.toggleExpand(this.data, this.expandAll);
+      }, 
       methods:{
           onExpand(e, data) {
             e.stopPropagation()
