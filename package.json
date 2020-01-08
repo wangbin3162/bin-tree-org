@@ -48,7 +48,7 @@
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "babel-plugin-add-module-exports": "^1.0.2",
-    "bin-ui": "^2.5.0",
+    "bin-ui": "^2.6.0",
     "clean-webpack-plugin": "^3.0.0",
     "compression-webpack-plugin": "^3.0.0",
     "cross-env": "^6.0.3",
