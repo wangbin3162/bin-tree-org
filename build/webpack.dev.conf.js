@@ -22,7 +22,7 @@ const webpackConfig = merge(webpackBaseConfig, {
   },
   output: {
     path: path.join(__dirname, '../docs'),
-    publicPath: isProd ? '' : '',
+    publicPath: isProd ? '' : '/',
     filename: 'js/[name].js',
     chunkFilename: 'js/[name].[hash:7].js'
   },
