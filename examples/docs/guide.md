@@ -39,9 +39,9 @@ yarn add bin-tree-org
 
 ```javascript
 import Vue from 'vue'
-import BinOrgTree from 'bin-tree-org'
+import BinTreeOrg from 'bin-tree-org'
 
-Vue.use(BinOrgTree)
+Vue.use(BinTreeOrg)
 ```
 
 ### 最新版本

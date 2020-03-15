@@ -20,13 +20,13 @@
         </div>
       </div>
       <br>
-      <b-org-tree :data="data"      
+      <b-tree-org :data="data"      
                   :horizontal="horizontal"      
                   :collapsable="collapsable"
                   :label-style="style"
                   @on-expand="onExpand"
                   @on-node-click="onNodeClick"
-      ></b-org-tree>
+      ></b-tree-org>
     </div>
 </template>
 <script>

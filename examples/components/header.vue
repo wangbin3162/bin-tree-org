@@ -24,9 +24,10 @@
     background-color: #fff;
     box-shadow: 0 10px 60px 0 rgba(29, 29, 31, 0.07);
     opacity: 0.98;
-    position: relative !important;
+    position: fixed !important;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     height: 80px;
     transition: all .3s;

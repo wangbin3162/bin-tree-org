@@ -1,10 +1,10 @@
 // 核心插件
 import corePlugin from './plugin/core'
 // 组件
-import OrgTree from './components/org-tree/index'
+import TreeOrg from './components/tree-org'
 
 const components = [
-  OrgTree
+  TreeOrg
 ]
 
 const install = function (Vue) {
@@ -21,5 +21,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  install, OrgTree
+  install, TreeOrg
 }
