@@ -12,6 +12,7 @@ import DemoBlock from './components/demo-block.vue'
 import MainHeader from './components/header.vue'
 import MainFooter from './components/footer.vue'
 import SideNav from './components/side-nav.vue'
+import DemoNode from './components/demo-node.vue'
 
 // 当前组件的引入
 import VueComponent from '../src/index'
@@ -25,6 +26,7 @@ Vue.component('DemoBlock', DemoBlock)
 Vue.component('MainHeader', MainHeader)
 Vue.component('MainFooter', MainFooter)
 Vue.component('SideNav', SideNav)
+Vue.component('DemoNode', DemoNode)
 
 new Vue({
   router,

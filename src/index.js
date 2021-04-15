@@ -1,7 +1,7 @@
 // 核心插件
 import corePlugin from './plugin/core'
 // 组件
-import TreeOrg from './components/tree-org'
+import TreeOrg from './components/tree'
 
 const components = [
   TreeOrg

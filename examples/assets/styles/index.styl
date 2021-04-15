@@ -2,7 +2,6 @@
 @import "icon.styl"
 @import "button.styl"
 
-
 .demo-transition .transition-box {
   margin-bottom: 10px;
   width: 200px;
@@ -117,4 +116,44 @@
   background: #ffffff;
   z-index: 5;
   overflow-y: auto;
+}
+
+.demo-block.demo-demo .custom-tree {
+  .horizontal .bin-tree-org-node-btn {
+    background: rgba(67, 207, 124, 1);
+    border: none;
+    border-radius: 2px;
+    width: 18px;
+    height: 18px;
+    margin-left: 40px;
+
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      background: #fff;
+    }
+    &:before {
+      top: 8px;
+    }
+
+    &:after {
+      left: 8.5px;
+    }
+  }
+  .horizontal .bin-tree-org-node-children {
+    padding-left: 40px;
+    &:before {
+      width: 40px;
+    }
+  }
+  .horizontal.collapsable .bin-tree-org-node.collapsed .bin-tree-org-node-label:after {
+    width: 40px;
+  }
+  .horizontal .bin-tree-org-node {
+    padding-left: 40px;
+  }
+  .horizontal .bin-tree-org-node:before, .horizontal .bin-tree-org-node:after {
+    width: 40px;
+    height: 50%;
+  }
 }
