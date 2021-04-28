@@ -1,5 +1,5 @@
 // 核心插件
-import corePlugin from './plugin/core'
+import corePlugin from './plugin'
 // 组件
 import TreeOrg from './components/tree'
 

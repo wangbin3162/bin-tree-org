@@ -4,20 +4,17 @@ const log = {}
  * @description 返回这个样式的颜色值
  * @param {String} type 样式名称 [ primary | success | warning | danger | text ]
  */
-export function typeColor (type = 'default') {
+export function typeColor(type = 'default') {
   let color = ''
   switch (type) {
     case 'primary':
-      color = '#2d8cf0'
+      color = '#1089ff'
       break
     case 'success':
-      color = '#19be6b'
-      break
-    case 'info':
-      color = '#909399'
+      color = '#52c41a'
       break
     case 'warning':
-      color = '#ff9900'
+      color = '#fea638'
       break
     case 'danger':
       color = '#ff4d4f'
@@ -40,7 +37,7 @@ log.print = function (text, type = 'default', back = false) {
   if (back) { // 如果是打印带背景图的
     console.log(
       `%c ${text} `,
-      `background:${typeColor(type)}; padding: 2px; border-radius: 4px;color: #fff;`
+      `background:${typeColor(type)}; padding: 2px; border-radius: 2px;color: #fff;`
     )
   } else {
     console.log(
@@ -53,8 +50,8 @@ log.print = function (text, type = 'default', back = false) {
 log.pretty = function (title, text, type = 'primary') {
   console.log(
     `%c ${title} %c ${text} %c`,
-    `background:${typeColor(type)};border:1px solid ${typeColor(type)}; padding: 1px; border-radius: 4px 0 0 4px; color: #fff;`,
-    `border:1px solid ${typeColor(type)}; padding: 1px; border-radius: 0 4px 4px 0; color: ${typeColor(type)};`,
+    `background:${typeColor(type)};border:1px solid ${typeColor(type)}; padding: 1px; border-radius: 2px 0 0 2px; color: #fff;`,
+    `border:1px solid ${typeColor(type)}; padding: 1px; border-radius: 0 2px 2px 0; color: ${typeColor(type)};`,
     'background:transparent'
   )
 }
