@@ -1,6 +1,6 @@
 # bin-lib
 
-[说明文档](https://wangbin3162.gitee.io/bin-tree-org/)
+[说明文档](https://wangbin3162.github.io/bin-tree-org/)
 
 ## 介绍
 
@@ -54,5 +54,5 @@ Vue.use(BinOrgTree)
 
 ### 相关链接
 
-[bin-ui](https://wangbin3162.gitee.io/bin-ui/)
+[bin-ui](https://wangbin3162.github.io/bin-ui/)
 
